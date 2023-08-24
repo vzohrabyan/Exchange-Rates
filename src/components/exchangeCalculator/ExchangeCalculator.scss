@@ -1,0 +1,55 @@
+.exchangeCalculator {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    label {
+        margin: 10px 0px;
+    }
+    .live-calculator {
+        svg {
+            margin-right: 15px;
+        }
+        display: flex;
+        align-items: center;
+        background-color: #6acc99;
+        color: #fff;
+        margin: 0;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .result {
+        font-size: 1.4em;
+        color: #499e8e;
+        line-height: 1.42;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    input {
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        background-color: #f5f5f5;
+        padding: 15px;
+    }
+    .css-13cymwt-control {
+        border: 1px solid #e0e0e0 !important;
+        cursor: pointer;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #f5f5f5 !important;
+        svg {
+            color: #808080;
+        }
+    }
+    .css-1u9des2-indicatorSeparator {
+        display: none;
+    }
+}
+
+.css-13cymwt-control:hover {
+    svg {
+        color: #6acc99;
+    }
+}
